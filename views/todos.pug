@@ -1,0 +1,9 @@
+h1 Todos list
+
+ul
+  each val in todosList
+    li=val
+    
+form(method="GET")
+  input(type="text", name="q")
+  button Search
